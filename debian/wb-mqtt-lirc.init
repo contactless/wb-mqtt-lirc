@@ -6,6 +6,7 @@
 # Required-Start: $remote_fs
 # Required-Stop: $remote_fs
 # X-Start-Before: mosquitto, lirc
+# X-Stop-After:   mosquitto, lirc
 # Short-Description: WB LIRC driver for infrared remote control
 # Description:       WB LIRC driver for infrared remote control
 ### END INIT INFO
